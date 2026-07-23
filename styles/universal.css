@@ -1,0 +1,65 @@
+
+
+body {
+	background-color: #f0f0f0;
+	font-family:  'roboto_regular';
+	color: #151515;
+}
+
+body *:not(#nav_bar):not(#nav_bar *) {
+  opacity: 0;
+  animation-name: bodyAnimation;
+  animation-duration: 0.5s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+@keyframes bodyAnimation {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+
+
+::-moz-selection {
+	color: #ffffff;
+	background-color: #952929;
+}
+
+::selection {
+	color: #ffffff;
+	background-color: #952929;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+h1 {
+	font-family:  'roboto_bold';
+	
+}
+
+
+#nav_banner_box_image {
+	width: 250px;
+	height: auto;
+}
+
+
+footer {
+	margin-top: 110px;
+	font-size: 14px;
+	text-align:center;
+	color: #757575;
+	
+}
+
+#copyrights {
+
+}
