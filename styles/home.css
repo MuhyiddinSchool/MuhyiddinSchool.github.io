@@ -54,3 +54,21 @@
 
 
 
+#guide_download_button {
+	text-align: center;
+	display: block;
+	margin: 80px auto;
+	width: 300px;
+	padding: 15px;
+	border-radius: 100px;
+	background-color: #000000;
+	color: #ffffff;
+}
+
+#guide_download_button:hover {
+	background-color: #252525;
+	color: #ffffff;
+}
+
+
+
