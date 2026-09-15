@@ -8,7 +8,6 @@
 
 #login_box {
 	width: 400px;
-	height: 300px;
 	background-color: #ffffff;
 	border-radius: 20px;
 	border: 0px solid #505050;
@@ -39,7 +38,7 @@
 #frappe_login_button {
 	text-align: center;
 	display: block;
-	margin: 80px auto;
+	margin: 20px auto;
 	width: 80%;
 	padding: 15px;
 	border-radius: 10px;
@@ -57,7 +56,7 @@
 #guide_download_button {
 	text-align: center;
 	display: block;
-	margin: 80px auto;
+	margin: 20px auto;
 	width: 300px;
 	padding: 15px;
 	border-radius: 100px;
